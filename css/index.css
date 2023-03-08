@@ -1,0 +1,102 @@
+html,
+body,
+table {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+table {
+  width: 1000px;
+}
+
+/* table,
+td {
+  border: 1px solid;
+} */
+
+/* NAVBAR */
+.navbar {
+  vertical-align: top;
+  padding-top: 370px;
+  width: 300px;
+  background-color: #264653;
+}
+
+.navbar .nav {
+  position: fixed;
+  width: 300px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  padding: 8px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+/* CONTENT */
+.content {
+  height: 1000px;
+  padding-left: 50px;
+}
+
+.content h2 {
+  font-size: 70px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.content p {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+.social-icons a,
+.social-icons svg,
+.tech-icons svg {
+  width: 49px;
+  height: 51px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons svg,
+.tech-icons svg {
+  fill: grey;
+}
+
+.social-icons svg:hover,
+.tech-icons svg:hover {
+  fill: #264653;
+}
